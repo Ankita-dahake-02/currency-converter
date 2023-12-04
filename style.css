@@ -1,0 +1,25 @@
+body{
+    background-image: url("https://wallpapercave.com/wp/wp7470572.jpg");
+    display: flex;
+    justify-content: center;
+
+}
+
+#main{
+    height: 200px;
+    width: 1000px;
+    backdrop-filter: blur(20px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+    font-size: 20px;
+    margin-left: 10px;
+    border-radius: 50px;
+}
+#select_from,#input_currency,#convert_to,#output_currency,#btn{
+    font-size: 20px;
+    background-color: burlywood;
+    margin-left: 10px;
+    border-radius: 10px;
+}
